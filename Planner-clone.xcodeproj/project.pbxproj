@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A95D31B42CED8CB900A7AE24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A95D319B2CED8CB800A7AE24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A95D31A22CED8CB800A7AE24;
+			remoteInfo = "Planner-clone";
+		};
+		A95D31BE2CED8CB900A7AE24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A95D319B2CED8CB800A7AE24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A95D31A22CED8CB800A7AE24;
+			remoteInfo = "Planner-clone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A95D31A32CED8CB800A7AE24 /* Planner-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Planner-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95D31B32CED8CB900A7AE24 /* Planner-cloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Planner-cloneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95D31BD2CED8CB900A7AE24 /* Planner-cloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Planner-cloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A95D31A52CED8CB800A7AE24 /* Planner-clone */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Planner-clone";
+			sourceTree = "<group>";
+		};
+		A95D31B62CED8CB900A7AE24 /* Planner-cloneTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Planner-cloneTests";
+			sourceTree = "<group>";
+		};
+		A95D31C02CED8CB900A7AE24 /* Planner-cloneUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Planner-cloneUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A95D31A02CED8CB800A7AE24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95D31B02CED8CB900A7AE24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95D31BA2CED8CB900A7AE24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A95D319A2CED8CB800A7AE24 = {
+			isa = PBXGroup;
+			children = (
+				A95D31A52CED8CB800A7AE24 /* Planner-clone */,
+				A95D31B62CED8CB900A7AE24 /* Planner-cloneTests */,
+				A95D31C02CED8CB900A7AE24 /* Planner-cloneUITests */,
+				A95D31A42CED8CB800A7AE24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A95D31A42CED8CB800A7AE24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A95D31A32CED8CB800A7AE24 /* Planner-clone.app */,
+				A95D31B32CED8CB900A7AE24 /* Planner-cloneTests.xctest */,
+				A95D31BD2CED8CB900A7AE24 /* Planner-cloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A95D31A22CED8CB800A7AE24 /* Planner-clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A95D31C72CED8CB900A7AE24 /* Build configuration list for PBXNativeTarget "Planner-clone" */;
+			buildPhases = (
+				A95D319F2CED8CB800A7AE24 /* Sources */,
+				A95D31A02CED8CB800A7AE24 /* Frameworks */,
+				A95D31A12CED8CB800A7AE24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A95D31A52CED8CB800A7AE24 /* Planner-clone */,
+			);
+			name = "Planner-clone";
+			packageProductDependencies = (
+			);
+			productName = "Planner-clone";
+			productReference = A95D31A32CED8CB800A7AE24 /* Planner-clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A95D31B22CED8CB900A7AE24 /* Planner-cloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A95D31CA2CED8CB900A7AE24 /* Build configuration list for PBXNativeTarget "Planner-cloneTests" */;
+			buildPhases = (
+				A95D31AF2CED8CB900A7AE24 /* Sources */,
+				A95D31B02CED8CB900A7AE24 /* Frameworks */,
+				A95D31B12CED8CB900A7AE24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A95D31B52CED8CB900A7AE24 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A95D31B62CED8CB900A7AE24 /* Planner-cloneTests */,
+			);
+			name = "Planner-cloneTests";
+			packageProductDependencies = (
+			);
+			productName = "Planner-cloneTests";
+			productReference = A95D31B32CED8CB900A7AE24 /* Planner-cloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A95D31BC2CED8CB900A7AE24 /* Planner-cloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A95D31CD2CED8CB900A7AE24 /* Build configuration list for PBXNativeTarget "Planner-cloneUITests" */;
+			buildPhases = (
+				A95D31B92CED8CB900A7AE24 /* Sources */,
+				A95D31BA2CED8CB900A7AE24 /* Frameworks */,
+				A95D31BB2CED8CB900A7AE24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A95D31BF2CED8CB900A7AE24 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A95D31C02CED8CB900A7AE24 /* Planner-cloneUITests */,
+			);
+			name = "Planner-cloneUITests";
+			packageProductDependencies = (
+			);
+			productName = "Planner-cloneUITests";
+			productReference = A95D31BD2CED8CB900A7AE24 /* Planner-cloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A95D319B2CED8CB800A7AE24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					A95D31A22CED8CB800A7AE24 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					A95D31B22CED8CB900A7AE24 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = A95D31A22CED8CB800A7AE24;
+					};
+					A95D31BC2CED8CB900A7AE24 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = A95D31A22CED8CB800A7AE24;
+					};
+				};
+			};
+			buildConfigurationList = A95D319E2CED8CB800A7AE24 /* Build configuration list for PBXProject "Planner-clone" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A95D319A2CED8CB800A7AE24;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A95D31A42CED8CB800A7AE24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A95D31A22CED8CB800A7AE24 /* Planner-clone */,
+				A95D31B22CED8CB900A7AE24 /* Planner-cloneTests */,
+				A95D31BC2CED8CB900A7AE24 /* Planner-cloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A95D31A12CED8CB800A7AE24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95D31B12CED8CB900A7AE24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95D31BB2CED8CB900A7AE24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A95D319F2CED8CB800A7AE24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95D31AF2CED8CB900A7AE24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95D31B92CED8CB900A7AE24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A95D31B52CED8CB900A7AE24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A95D31A22CED8CB800A7AE24 /* Planner-clone */;
+			targetProxy = A95D31B42CED8CB900A7AE24 /* PBXContainerItemProxy */;
+		};
+		A95D31BF2CED8CB900A7AE24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A95D31A22CED8CB800A7AE24 /* Planner-clone */;
+			targetProxy = A95D31BE2CED8CB900A7AE24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A95D31C52CED8CB900A7AE24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A95D31C62CED8CB900A7AE24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A95D31C82CED8CB900A7AE24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Planner-clone/Preview Content\"";
+				DEVELOPMENT_TEAM = 8384YBDT96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fusethnd.Planner-clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A95D31C92CED8CB900A7AE24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Planner-clone/Preview Content\"";
+				DEVELOPMENT_TEAM = 8384YBDT96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fusethnd.Planner-clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A95D31CB2CED8CB900A7AE24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8384YBDT96;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fusethnd.Planner-cloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Planner-clone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Planner-clone";
+			};
+			name = Debug;
+		};
+		A95D31CC2CED8CB900A7AE24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8384YBDT96;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fusethnd.Planner-cloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Planner-clone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Planner-clone";
+			};
+			name = Release;
+		};
+		A95D31CE2CED8CB900A7AE24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8384YBDT96;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fusethnd.Planner-cloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Planner-clone";
+			};
+			name = Debug;
+		};
+		A95D31CF2CED8CB900A7AE24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8384YBDT96;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fusethnd.Planner-cloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Planner-clone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A95D319E2CED8CB800A7AE24 /* Build configuration list for PBXProject "Planner-clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95D31C52CED8CB900A7AE24 /* Debug */,
+				A95D31C62CED8CB900A7AE24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A95D31C72CED8CB900A7AE24 /* Build configuration list for PBXNativeTarget "Planner-clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95D31C82CED8CB900A7AE24 /* Debug */,
+				A95D31C92CED8CB900A7AE24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A95D31CA2CED8CB900A7AE24 /* Build configuration list for PBXNativeTarget "Planner-cloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95D31CB2CED8CB900A7AE24 /* Debug */,
+				A95D31CC2CED8CB900A7AE24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A95D31CD2CED8CB900A7AE24 /* Build configuration list for PBXNativeTarget "Planner-cloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95D31CE2CED8CB900A7AE24 /* Debug */,
+				A95D31CF2CED8CB900A7AE24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A95D319B2CED8CB800A7AE24 /* Project object */;
+}
